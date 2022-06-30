@@ -2,11 +2,23 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
+    "@mui/icons-material": "5.8.4",
+    "@mui/material": "5.8.6",
+    "ra-data-json-server": "4.2.0",
+    "ra-data-simple-rest": "4.2.0",
+    "ra-input-rich-text": "4.2.0",
     "react": "18.0.0",
+    "react-admin": "4.2.0",
     "react-dom": "18.0.0",
+    "react-query": "3.39.1",
     "react-scripts": "4.0.0"
   },
   "devDependencies": {
@@ -19,5 +31,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
